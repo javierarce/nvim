@@ -8,7 +8,6 @@ return {
 		"LazyGitFilterCurrentFile",
 	},
 	-- optional for floating window border decoration
-	-- this is a test
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 	},
