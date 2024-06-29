@@ -35,13 +35,4 @@ return {
 		--   If not available, we use `mini` as the fallback
 		"rcarriga/nvim-notify",
 	},
-	config = function()
-		vim.keymap.set("n", "<leader>nx", function()
-			require("noice").cmd("dismiss")
-		end)
-
-		vim.keymap.set("n", "<leader>nh", function()
-			require("noice").cmd("history")
-		end)
-	end,
 }
