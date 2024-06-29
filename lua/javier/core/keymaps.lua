@@ -18,6 +18,14 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 
 keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" }) -- open new tab
 keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current tab
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
+keymap.set("n", "<leader>tp", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
+keymap.set("n", "<leader>tn", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+keymap.set("n", "<leader>t0", "1gt", { desc = "Go to tab 1" })
+keymap.set("n", "<leader>t1", "1gt", { desc = "Go to tab 1" })
+keymap.set("n", "<leader>t2", "2gt", { desc = "Go to tab 2" })
+keymap.set("n", "<leader>t3", "3gt", { desc = "Go to tab 3" })
+keymap.set("n", "<leader>t4", "4gt", { desc = "Go to tab 4" })
+keymap.set("n", "<leader>t5", "5gt", { desc = "Go to tab 5" })
+keymap.set("n", "<leader>t6", "6gt", { desc = "Go to tab 6" })
+keymap.set("n", "<leader>t7", "7gt", { desc = "Go to tab 7" })
